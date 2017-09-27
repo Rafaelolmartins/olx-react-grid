@@ -1,9 +1,9 @@
 {
   "name": "olx-react-grid",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "dependencies": {
-    "markdown-for-react": "^0.1.2",
+    "markdown-for-react": "^0.1.1",
     "olx-react-grid": "^0.1.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
