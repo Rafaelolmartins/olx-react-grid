@@ -1,7 +1,6 @@
 {
   "name": "olx-react-grid",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "markdown-for-react": "^0.1.1",
     "react": "^15.6.1",
