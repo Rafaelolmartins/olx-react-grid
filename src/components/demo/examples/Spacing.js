@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Col, Row } from '../../grid'
+import { Grid, Col, Row } from 'olx-react-grid'
 //import SyntaxHighlighter from 'react-syntax-highlighter'
 //import { github } from 'react-syntax-highlighter/dist/styles'
 const OrangeRow = Row.extend`
@@ -51,21 +51,21 @@ const Spacing = () => (
             </Col>
         </Row>
         <Row xsDistribution='around' xsValign='middle' mb={3}>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle'>
                     <GreenCol xs m={0}>
                         0
                     </GreenCol>
                 </OrangeRow>
             </Col>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle'>
                     <GreenCol xs m={1}>
                         1
                     </GreenCol>
                 </OrangeRow>
             </Col>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle'>
                     <GreenCol xs m={2}>
                         2
@@ -74,21 +74,21 @@ const Spacing = () => (
             </Col>
         </Row>
         <Row xsDistribution='around' xsValign='middle' mb={3}>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle'>
                     <GreenCol xs m={3}>
                         3
                     </GreenCol>
                 </OrangeRow>
             </Col>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle'>
                     <GreenCol xs m={4}>
                         4
                     </GreenCol>
                 </OrangeRow>
             </Col>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle'>
                     <GreenCol xs m={[1, 2, 3, 4]}>
                         1, 2, 3 ,4
@@ -102,21 +102,21 @@ const Spacing = () => (
             </Col>
         </Row>
         <Row xsDistribution='around' xsValign='middle' mb={3}>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle' p={0}>
                     <PurpleCol xs>
                         0
                     </PurpleCol>
                 </OrangeRow>
             </Col>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle' p={1}>
                     <PurpleCol xs>
                         1
                     </PurpleCol>
                 </OrangeRow>
             </Col>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle' p={2}>
                     <PurpleCol xs>
                         2
@@ -125,21 +125,21 @@ const Spacing = () => (
             </Col>
         </Row>
         <Row xsDistribution='around' xsValign='middle' mb={3}>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle' p={3}>
                     <PurpleCol xs>
                         3
                     </PurpleCol>
                 </OrangeRow>
             </Col>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle' p={4}>
                     <PurpleCol xs>
                         4
                     </PurpleCol>
                 </OrangeRow>
             </Col>
-            <Col xs={3}>
+            <Col xs={12} md={3} mb={2}>
                 <OrangeRow xsValign='middle' p={[0, 1, 2, 3]}>
                     <PurpleCol xs>
                         0, 1, 2, 3

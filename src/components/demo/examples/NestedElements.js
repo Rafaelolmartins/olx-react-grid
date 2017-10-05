@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Col, Row } from '../../grid'
+import { Grid, Col, Row } from 'olx-react-grid'
 import { BoxPurple, BoxGreen, BoxOrange } from '../Boxes'
 
 const withNestedDivs = {
@@ -14,7 +14,7 @@ const NestedElements = () => (
             </Col>
         </Row>
         <Row>
-            <Col xs={7}>
+            <Col xs={12} md={7}>
                 <BoxPurple style={withNestedDivs}>
                     <Row>
                         <Col xs={8}>
@@ -41,7 +41,7 @@ const NestedElements = () => (
                     </Row>
                 </BoxPurple>
             </Col>
-            <Col xs={5}>
+            <Col xs={12} md={5}>
                 <BoxPurple style={withNestedDivs}>
                     <Row>
                         <Col xs={6}>

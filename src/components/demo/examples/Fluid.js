@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Col, Row } from '../../grid'
+import { Grid, Col, Row } from 'olx-react-grid'
 import { BoxPurple } from '../Boxes'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { github } from 'react-syntax-highlighter/dist/styles'
@@ -21,10 +21,10 @@ const Fluid = () => (
             </Col>
         </Row>
         <Row style={style}>
-            <Col xs={1}>
+            <Col xs={3}>
                 <BoxPurple></BoxPurple>
             </Col>
-            <Col xs={11}>
+            <Col xs={9}>
                 <BoxPurple></BoxPurple>
             </Col>
         </Row>

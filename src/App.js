@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Grid, Col, Row } from './components/grid'
-import styled, { ThemeProvider, injectGlobal } from 'styled-components'
+import { Grid, Col, Row } from 'olx-react-grid'
+import styled, { injectGlobal, ThemeProvider } from 'styled-components'
 import ResponsiveExample from './components/demo/examples/Responsive'
 import FluidExample from './components/demo/examples/Fluid'
 import OffsetsExample from './components/demo/examples/Offsets'
@@ -12,7 +12,6 @@ import OrderExample from './components/demo/examples/Order'
 import SpacingExample from './components/demo/examples/Spacing'
 
 import logo from './logo.svg'
-import theme from './theme'
 
 injectGlobal`
     * {
@@ -35,6 +34,47 @@ const Title = styled.h1`
 const SubTitle = styled.h3`
 
 `
+
+const theme = {
+    breakpoints: {
+        xs: 0,
+        sm: 550,
+        md: 1024,
+        lg: 1280,
+        xl: 1366,
+        xxl: 1440,
+        xxxl: 1600,
+    },
+    container: {
+        xs: 375,
+        sm: 550,
+        md: 984,
+        lg: 1056,
+        xl: 1008,
+        xxl: 1080,
+        xxxl: 1128,
+    },
+    spaces: [
+        { m: 'margin'},
+        { mt: 'margin-top'},
+        { mb: 'margin-bottom'},
+        { ml: 'margin-left'},
+        { mr: 'margin-right'},
+        { p: 'padding'},
+        { pt: 'padding-top'},
+        { pb: 'padding-bottop'},
+        { pl: 'padding-left'},
+        { pr: 'padding-right'},
+    ],
+    nuggets: [
+        4,
+        8,
+        16,
+        32,
+        64
+    ],
+    browserContextFontSize: 16
+}
 
 class App extends Component {
   render() {

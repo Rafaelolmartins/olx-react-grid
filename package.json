@@ -28,7 +28,6 @@
     "jest": "20.0.4",
     "markdown-for-react": "^0.1.1",
     "object-assign": "4.1.1",
-    "olx-react-grid": "^0.1.2",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.6",
     "promise": "8.0.1",

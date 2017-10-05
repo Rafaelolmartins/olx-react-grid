@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Col, Row } from '../../grid'
+import { Grid, Col, Row } from 'olx-react-grid'
 import { BoxPurple, BoxGreen, BoxOrange } from '../Boxes'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { github } from 'react-syntax-highlighter/dist/styles'
@@ -25,22 +25,22 @@ const Order = () => (
             <Col xs={12}>
                 <BoxPurple style={withNestedDivs}>
                     <Row>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>1</BoxGreen>
                         </Col>
-                        <Col xs={2} xsLast>
+                        <Col xs={4} md={2} xsLast mt={2}>
                             <BoxOrange>2</BoxOrange>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>3</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>4</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mt={2} mb={2}>
                             <BoxGreen>5</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mt={2} mb={2}>
                             <BoxGreen>6</BoxGreen>
                         </Col>
                     </Row>
@@ -90,22 +90,22 @@ const Order = () => (
             <Col xs={12}>
                 <BoxPurple style={withNestedDivs}>
                     <Row>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>1</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>2</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>3</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>4</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>5</BoxGreen>
                         </Col>
-                        <Col xs={2} xsFirst>
+                        <Col xs={4} md={2} mb={2} mt={2} xsFirst>
                             <BoxOrange>6</BoxOrange>
                         </Col>
                     </Row>
@@ -155,22 +155,22 @@ const Order = () => (
             <Col xs={12}>
                 <BoxPurple style={withNestedDivs}>
                     <Row xsReverse>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>1</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>2</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>3</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>4</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxGreen>5</BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={4} md={2} mb={2} mt={2}>
                             <BoxOrange>6</BoxOrange>
                         </Col>
                     </Row>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Col, Row } from '../../grid'
+import { Grid, Col, Row } from 'olx-react-grid'
 import { BoxPurple } from '../Boxes'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { github } from 'react-syntax-highlighter/dist/styles'

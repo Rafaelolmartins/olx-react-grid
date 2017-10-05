@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Col, Row } from '../../grid'
+import { Grid, Col, Row } from 'olx-react-grid'
 import { BoxPurple, BoxGreen } from '../Boxes'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { github } from 'react-syntax-highlighter/dist/styles'
@@ -25,13 +25,13 @@ const Distribution = () => (
             <Col xs={12}>
                 <BoxPurple style={withNestedDivs}>
                     <Row xsDistribution='around'>
-                        <Col xs={2}>
+                        <Col xs={3} md={2}>
                             <BoxGreen></BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={3} md={2}>
                             <BoxGreen></BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={3} md={2}>
                             <BoxGreen></BoxGreen>
                         </Col>
                     </Row>
@@ -46,13 +46,13 @@ const Distribution = () => (
     <Col xs={12}>
         <BoxPurple>
             <Row xsDistribution='around'>
-                <Col xs={2}>
+                <Col xs={3} md={2}>
                     <BoxGreen></BoxGreen>
                 </Col>
-                <Col xs={2}>
+                <Col xs={3} md={2}>
                     <BoxGreen></BoxGreen>
                 </Col>
-                <Col xs={2}>
+                <Col xs={3} md={2}>
                     <BoxGreen></BoxGreen>
                 </Col>
             </Row>
@@ -72,13 +72,13 @@ const Distribution = () => (
             <Col xs={12}>
                 <BoxPurple style={withNestedDivs}>
                     <Row xsDistribution='between'>
-                        <Col xs={2}>
+                        <Col xs={3} md={2}>
                             <BoxGreen></BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={3} md={2}>
                             <BoxGreen></BoxGreen>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={3} md={2}>
                             <BoxGreen></BoxGreen>
                         </Col>
                     </Row>
@@ -93,13 +93,13 @@ const Distribution = () => (
     <Col xs={12}>
         <BoxPurple>
             <Row xsDistribution='between'>
-                <Col xs={2}>
+                <Col xs={3} md={2}>
                     <BoxGreen></BoxGreen>
                 </Col>
-                <Col xs={2}>
+                <Col xs={3} md={2}>
                     <BoxGreen></BoxGreen>
                 </Col>
-                <Col xs={2}>
+                <Col xs={3} md={2}>
                     <BoxGreen></BoxGreen>
                 </Col>
             </Row>
